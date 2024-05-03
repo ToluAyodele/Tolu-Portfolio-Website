@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1.3rem;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+  
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+p{
+    color: rgb(85,85,85);
+}

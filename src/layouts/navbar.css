@@ -1,0 +1,36 @@
+nav, .nav-links{
+    display: flex;
+}
+
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+.nav-links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    text-decoration-color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: gray;
+    text-underline-offset: 0.6rem;
+}
+
+.logo{
+    font-size: 2rem;
+}
+
+
+.logo{
+    cursor: default;
+}
