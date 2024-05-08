@@ -1,9 +1,9 @@
 import "./navbar.css";
 import { useState } from "react";
-import profilePic from "../assets/my-picture.JPG";
-import resume from "../assets/Resume-ToluwanimiAyodele.pdf";
-import linkedin from "../assets/linkedin.png";
-import github from "../assets/github.png";
+// import profilePic from "../assets/my-picture.JPG";
+// import resume from "../assets/Resume-ToluwanimiAyodele.pdf";
+// import linkedin from "../assets/linkedin.png";
+// import github from "../assets/github.png";
 
 
 
@@ -18,9 +18,9 @@ const Navbar = () =>{
         toggleClass === ''?setToggleClass('open'):setToggleClass('');
     }
 
-    const openResume=() => {
-        window.open(resume);
-    }
+    // const openResume=() => {
+    //     window.open(resume);
+    // }
 
    
     return(
@@ -63,7 +63,7 @@ const Navbar = () =>{
 
             </nav>
 
-            <section className="profile">
+            {/* <section className="profile">
                 <div className="section__pic-container">
 
                    
@@ -98,7 +98,7 @@ const Navbar = () =>{
                     </div>
 
                 </div>
-            </section>
+            </section> */}
         </>
     )
 }
