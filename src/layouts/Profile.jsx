@@ -29,7 +29,7 @@ const Profile = () => {
                             <button className="btn btn-color-2" onClick={openResume}>
                                 Download Resume
                             </button>
-                            <button className="btn btn-color-1" onClick={()=>(window.location.href='./#contact')}>
+                            <button className="btn btn-color-1" onClick={()=>(window.location.href='./contact')}>
                                 Contact Info
                             </button>
 
