@@ -1,21 +1,21 @@
 import React from 'react'
-import Typewriter from 'typewriter-effect/dist/core';
+import Typewriter from 'typewriter-effect';
 
-const typeWriterEffect = () => {
+const Type = () => {
   return (
-    <span>
-      <Typewriter 
+    <div>
+        <Typewriter 
         options={{
             strings: ['FrontEnd Developer', 'ML Engineer',  'Data Scientist'],
             autoStart: true,
             loop: true,
-            delay: 70,
-            deleteSpeed: 20,
+            delay: 90,
+            deleteSpeed: 50,
         }}
       
       />
-    </span>
+    </div>
   )
 }
 
-export default typeWriterEffect
+export default Type

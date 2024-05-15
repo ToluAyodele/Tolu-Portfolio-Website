@@ -4,12 +4,15 @@ import profilePic from "../assets/my-picture.JPG";
 import resume from "../assets/Resume-ToluwanimiAyodele.pdf";
 import linkedin from "../assets/linkedin.png";
 import github from "../assets/github.png";
+import Type from '../components/Type';
 
 const Profile = () => {
 
     const openResume=() => {
         window.open(resume);
     }
+    
+   
 
     return (
         <div>
@@ -24,7 +27,9 @@ const Profile = () => {
                     <div className="section__text">
                         <p className="section__text__p1">Hello, I'm </p>
                         <h1 className="title">Toluwanimi Ayodele</h1>
-                        <p className="section__text__p2">Frontend Developer</p>
+                        <p className="section__text__p2">
+                            <Type/>
+                        </p>
                         <div className="btn-container">
                             <button className="btn btn-color-2" onClick={openResume}>
                                 Download Resume

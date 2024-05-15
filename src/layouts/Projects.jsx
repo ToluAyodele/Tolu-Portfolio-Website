@@ -2,7 +2,6 @@ import React from 'react'
 import "./projects.css";
 import "./profile.css";
 import "./experience.css";
-import typeWriterEffect from '../components/typeWriterEffect';
 import project1 from "../assets/project-1.png";
 
 const Projects = () => {
